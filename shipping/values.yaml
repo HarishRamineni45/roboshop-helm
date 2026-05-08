@@ -1,0 +1,7 @@
+configMap:
+  cartEndpoint: "cart:8080"
+  dbHost: "mysql"
+deployment:
+  replicas: "1"
+  imageName: "harishramineni/shipping"
+  imageVersion: "1.4.0"
