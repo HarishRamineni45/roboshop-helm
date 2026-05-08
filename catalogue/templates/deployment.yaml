@@ -9,7 +9,7 @@ metadata:
     component: catalogue
 data:
   MONGO: "true"
-  MONGO_URL: {{ .Values.config.MONGO_URL }}
+  MONGO_URL: {{ .Values.configMap.MONGO_URL }}
   
 ---
 apiVersion: apps/v1
