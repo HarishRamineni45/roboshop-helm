@@ -1,4 +1,4 @@
 deployment:
   replicas: "1"
-  imageName: "harishramineni/redis"
+  imageName: "redis"
   imageVersion: "7.0"
