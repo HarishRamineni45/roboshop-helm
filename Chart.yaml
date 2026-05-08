@@ -1,0 +1,6 @@
+apiVersion: v2 # k8s related api version
+name: mongodb
+version: 0.0.1 # chart version
+appVersion: 1.0.0 # application version like cart, catalogue, mysql, etc
+description: "installing mongodb for roboshop application"
+
