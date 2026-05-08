@@ -1,0 +1,6 @@
+apiVersion: v2 # k8s related api version
+name: mysql
+version: 0.0.1 # chart version
+appVersion: 1.4.0 # application version like cart, catalogue, mysql, etc
+description: "installing mysql for roboshop application 1.4.0 version"
+
